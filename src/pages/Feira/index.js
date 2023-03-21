@@ -11,9 +11,7 @@ import { UsuarioContext } from 'common/context/Usuario';
 
 
 function Feira() {
-  
   const { nome, saldo } = useContext(UsuarioContext);
-
   return (
     <Container>
       <NavBar />
